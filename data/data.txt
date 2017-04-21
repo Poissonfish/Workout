@@ -1,4 +1,4 @@
-Date 	Type 	Rep 	Weight
+Date 	Exercise 	Replicate 	Weight
 2017/4/16	Deadlift	10	95
 2017/4/16	Deadlift	10	105
 2017/4/16	Deadlift	8	105

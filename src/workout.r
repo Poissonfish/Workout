@@ -3,15 +3,18 @@ library(magrittr)
 library(lubridate)
 library(ggplot2)
 setwd('~/git/Workout/data/')
-data = fread('data', colClasses = c(Date = 'character', Type = 'factor', Rep = 'numeric', Weight = 'numeric'), blank.lines.skip = TRUE)
-data$Date = data$Date %>% as_date
-data$Month = month(data$Date, label = T)
-data$Body[data$Type%in%c('Bench Press', 'Pec Deck')] = 'Upper body'
-data$Body[data$Type%in%c('Deadlift', 'Squat')] = 'Lower body'
+data = fread('data.txt', colClasses = c(Date = 'character', Exercise = 'factor', Replicate = 'numeric', Weight = 'numeric'), blank.lines.skip = TRUE)
+data[, Uni := paste0(Date, Exercise)]
+data[, ID := factor(rowid(Uni))]
+data[, Date := data$Date %>% as.Date]
+data[, Month := month(data$Date, label = T)]
+data$Body[data$Exercise%in%c('Bench Press', 'Pec Deck')] = 'Upper body'
+data$Body[data$Exercise%in%c('Deadlift', 'Squat')] = 'Lower body'
 data$Body = data$Body  %>% factor(levels = c('Upper body', 'Lower body'))
 
-plot = ggplot(data, aes(x = Date, y = Weight, colour = Type, size = Rep)) + 
-geom_point(alpha=.5, position=position_dodge(width=(5))) +
+pos = position_dodge(width=(.2))
+plot = ggplot(data, aes(x = Date, y = Weight, colour = Exercise, size = Replicate, group = ID)) + 
+geom_point(alpha=.5, position=pos) +
 scale_y_continuous(limit = c(50, 250), breaks= seq(50, 250, 20))+
 facet_grid(Body~Month)
-ggsave(filename = 'plot.png', plot = plot)
+ggsave(filename = '../plot.png', plot = plot) 
