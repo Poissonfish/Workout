@@ -19,7 +19,7 @@ data = fread('data.txt', blank.lines.skip = TRUE,
 # Construct the data table
 data[, Uni := paste0(Date, Exercise)]
 data[, ID := factor(rowid(Uni))]
-data[, Date := data$Date %>% as.Date]
+data[, Date := Date %>% as.Date]
 data$Body[data$Exercise %in% Upper_Exercise] = 'Upper body'
 data$Body[data$Exercise %in% Lower_Exercise] = 'Lower body'
 data$Body = data$Body %>% factor(levels = c('Upper body', 'Lower body'))
