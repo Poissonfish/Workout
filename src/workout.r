@@ -10,11 +10,11 @@ Upper_Exercise = c('Bench Press', 'Pec Deck')
 Lower_Exercise = c('Deadlift', 'Squat')
 
 # Import data
-data = fread('data.txt', blank.lines.skip = TRUE,
-			 colClasses = c(Date = 'character', 
-							Exercise = 'factor', 
-							Replicate = 'numeric', 
-							Weight = 'numeric'))
+data = fread('data.txt', blank.lines.skip = TRUE, 
+	colClasses = c(Date = 'character', 
+		Exercise = 'factor', 
+		Replicate = 'numeric', 
+		Weight = 'numeric'))
 
 # Construct the data table
 data[, Uni := paste0(Date, Exercise)]
