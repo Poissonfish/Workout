@@ -15,6 +15,7 @@ data$Body = data$Body  %>% factor(levels = c('Upper body', 'Lower body'))
 pos = position_dodge(width=(.2))
 plot = ggplot(data, aes(x = Date, y = Weight, colour = Exercise, size = Replicate, group = ID)) + 
 geom_point(alpha=.5, position=pos) +
+scale_x_continuous(limit = c(min(data$Date)-2, max(data$Date)+2))+
 scale_y_continuous(limit = c(50, 250), breaks= seq(50, 250, 20))+
 facet_grid(Body~Month)
-ggsave(filename = '../plot.png', plot = plot) 	
+ggsave(filename = '../plot.png', plot = plot) 
