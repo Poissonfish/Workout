@@ -5,7 +5,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/4/22	Squat	6	120
 2017/4/22	Squat	6	125
 2017/4/22	Squat	6	125
-
 2017/4/22	Pec Deck	10	55
 2017/4/22	Pec Deck	6	85
 2017/4/22	Pec Deck	8	90
