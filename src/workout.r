@@ -17,4 +17,4 @@ plot = ggplot(data, aes(x = Date, y = Weight, colour = Exercise, size = Replicat
 geom_point(alpha=.5, position=pos) +
 scale_y_continuous(limit = c(50, 250), breaks= seq(50, 250, 20))+
 facet_grid(Body~Month)
-ggsave(filename = '../plot.png', plot = plot) 
+ggsave(filename = '../plot.png', plot = plot) 	
