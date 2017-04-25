@@ -1,4 +1,4 @@
-# Import libraries
+# Import libraries 
 library(data.table)
 library(magrittr)
 library(lubridate)
@@ -16,13 +16,13 @@ data = fread('data.txt', blank.lines.skip = TRUE,
 			    Replicate = 'numeric', 
 			    Weight = 'numeric'))
 
-# Construct the data table
+# Construct the data table 
 data[, Uni := paste0(Date, Exercise)]
 data[, ID := factor(rowid(Uni))]
 data[, Date := Date %>% as.Date]
 data$Body[data$Exercise %in% Upper_Exercise] = 'Upper body'
 data$Body[data$Exercise %in% Lower_Exercise] = 'Lower body'
-data$Body = data$Body %>% factor(levels = c('Upper body', 'Lower body'))
+data$Body = data$Body %>% factor(levels = c('Upper body', 'Lower body') )
 
 # Plotting
 plot = ggplot(data, aes(x = Date, y = Weight, colour = Exercise, size = Replicate, group = ID)) + 
