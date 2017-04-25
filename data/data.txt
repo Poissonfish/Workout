@@ -1,4 +1,18 @@
 Date 	Exercise 	Replicate 	Weight
+2017/4/25	Deadlift	7	115
+2017/4/25	Deadlift	8	115
+2017/4/25	Deadlift	6	135
+2017/4/25	Deadlift	6	135
+2017/4/25	Deadlift	6	135
+2017/4/25	Deadlift	6	135
+2017/4/25	Deadlift	6	145
+2017/4/25	Bench Press	6	75
+2017/4/25	Bench Press	6	80
+2017/4/25	Bench Press	5	85
+2017/4/25	Bench Press	5	85
+2017/4/25	Bench Press	5	85
+2017/4/25	Bench Press	5	85
+
 2017/4/22	Squat	5	95
 2017/4/22	Squat	6	115
 2017/4/22	Squat	6	115
