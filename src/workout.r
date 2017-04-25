@@ -22,7 +22,7 @@ data[, ID := factor(rowid(Uni))]
 data[, Date := Date %>% as.Date]
 data$Body[data$Exercise %in% Upper_Exercise] = 'Upper body'
 data$Body[data$Exercise %in% Lower_Exercise] = 'Lower body'
-data$Body = data$Body %>% factor(levels = c('Upper body', 'Lower body') )
+data$Body = data$Body %>% factor(levels = c('Upper body', 'Lower body'))
 
 # Plotting
 plot = ggplot(data, aes(x = Date, y = Weight, colour = Exercise, size = Replicate, group = ID)) + 
