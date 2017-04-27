@@ -1,4 +1,17 @@
 Date 	Exercise 	Replicate 	Weight
+2017/4/27	Squat	6	125
+2017/4/27	Squat	6	135
+2017/4/27	Squat	6	140
+2017/4/27	Squat	6	145
+2017/4/27	Squat	6	145
+2017/4/27	Squat	6	145
+
+2017/4/27	Pec Deck	6	85
+2017/4/27	Pec Deck	6	90
+2017/4/27	Pec Deck	6	95
+2017/4/27	Pec Deck	6	95
+2017/4/27	Pec Deck	6	95
+
 2017/4/25	Deadlift	7	115
 2017/4/25	Deadlift	8	115
 2017/4/25	Deadlift	6	135
