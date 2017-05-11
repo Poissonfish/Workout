@@ -1,4 +1,16 @@
 Date 	Exercise 	Replicate 	Weight
+2017/5/5	Deadlift	5	150
+2017/5/5	Deadlift	5	150
+2017/5/5	Deadlift	5	155
+2017/5/5	Deadlift	5	155
+2017/5/5	Deadlift	5	155
+
+2017/5/5	Pec Deck	5	90
+2017/5/5	Pec Deck	5	95
+2017/5/5	Pec Deck	5	100
+2017/5/5	Pec Deck	5	105
+2017/5/5	Pec Deck	5	110
+
 2017/5/2	Squat	6	145
 2017/5/2	Squat	5	145
 2017/5/2	Squat	6	145
