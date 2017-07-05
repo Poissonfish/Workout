@@ -1,4 +1,16 @@
 Date 	Exercise 	Replicate 	Weight
+2017/7/5	Bench Press	5	95
+2017/7/5	Bench Press	5	100
+2017/7/5	Bench Press	5	105
+2017/7/5	Bench Press	5	105
+2017/7/5	Bench Press	4	105
+
+2017/7/5	Squat	5	145
+2017/7/5	Squat	5	160
+2017/7/5	Squat	5	160
+2017/7/5	Squat	5	160
+2017/7/5	Squat	5	160
+
 2017/7/2	Squat	5	145
 2017/7/2	Squat	5	145
 2017/7/2	Squat	5	155
