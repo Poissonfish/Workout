@@ -6,7 +6,7 @@ library(ggplot2)
 setwd('~/git/Workout/data/')
 
 # Define variables
-Upper_Exercise = c('Bench Press', 'Pec Deck')
+Upper_Exercise = c('Bench Press', 'Pec Deck', 'Rowing')
 Lower_Exercise = c('Deadlift', 'Squat')
 
 # Import data

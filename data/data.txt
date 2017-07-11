@@ -1,10 +1,36 @@
 Date 	Exercise 	Replicate 	Weight
+2017/7/11	Deadlift	5	145
+2017/7/11	Deadlift	5	150
+2017/7/11	Deadlift	5	155
+2017/7/11	Deadlift	5	155
+2017/7/11	Deadlift	5	155
+2017/7/11	Bench Press	5	95
+2017/7/11	Bench Press	5	95
+2017/7/11	Bench Press	5	95
+2017/7/11	Bench Press	5	95
+2017/7/11	Bench Press	5	95
+2017/7/11	Rowing	5	65
+2017/7/11	Rowing	5	75
+2017/7/11	Rowing	5	85
+2017/7/11	Rowing	5	85
+2017/7/11	Rowing	5	85
+
+2017/7/7	Bench Press	5	95
+2017/7/7	Bench Press	5	105
+2017/7/7	Bench Press	5	105
+2017/7/7	Bench Press	5	105
+2017/7/7	Bench Press	5	105
+2017/7/7	Squat	5	155
+2017/7/7	Squat	5	160
+2017/7/7	Squat	5	160
+2017/7/7	Squat	5	160
+2017/7/7	Squat	5	160
+
 2017/7/5	Bench Press	5	95
 2017/7/5	Bench Press	5	100
 2017/7/5	Bench Press	5	105
 2017/7/5	Bench Press	5	105
 2017/7/5	Bench Press	4	105
-
 2017/7/5	Squat	5	145
 2017/7/5	Squat	5	160
 2017/7/5	Squat	5	160
@@ -18,7 +44,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/7/2	Squat	5	155
 2017/7/2	Squat	5	155
 2017/7/2	Squat	5	155
-
 2017/7/2	Bench Press	5	95
 2017/7/2	Bench Press	5	95
 2017/7/2	Bench Press	5	95
@@ -33,7 +58,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/6/27	Bench Press	5	105
 2017/6/27	Bench Press	5	105
 2017/6/27	Bench Press	5	105
-
 2017/6/27	Deadlift	5	145
 2017/6/27	Deadlift	5	145
 2017/6/27	Deadlift	5	145
@@ -57,7 +81,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/6/21	Squat	5	145
 2017/6/21	Squat	5	145
 2017/6/21	Squat	5	145
-
 2017/6/21	Bench Press	5	85
 2017/6/21	Bench Press	5	85
 2017/6/21	Bench Press	5	90
@@ -69,7 +92,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/6/19	Squat	5	150
 2017/6/19	Squat	5	150
 2017/6/19	Squat	5	150
-
 2017/6/19	Bench Press	5	85
 2017/6/19	Bench Press	5	90
 2017/6/19	Bench Press	5	90
@@ -81,13 +103,11 @@ Date 	Exercise 	Replicate 	Weight
 2017/6/9	Deadlift	5	145
 2017/6/9	Deadlift	5	145
 2017/6/9	Deadlift	5	145
-
 2017/6/9	Bench Press	5	85
 2017/6/9	Bench Press	5	85
 2017/6/9	Bench Press	5	85
 2017/6/9	Bench Press	5	85
 2017/6/9	Bench Press	5	85
-
 2017/6/9	Pec Deck	5	100
 2017/6/9	Pec Deck	5	105
 2017/6/9	Pec Deck	5	110
@@ -99,7 +119,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/5/5	Deadlift	5	155
 2017/5/5	Deadlift	5	155
 2017/5/5	Deadlift	5	155
-
 2017/5/5	Pec Deck	5	90
 2017/5/5	Pec Deck	5	95
 2017/5/5	Pec Deck	5	100
@@ -111,7 +130,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/5/2	Squat	6	145
 2017/5/2	Squat	5	150
 2017/5/2	Squat	5	150
-
 2017/5/2	Bench Press	6	85
 2017/5/2	Bench Press	6	90
 2017/5/2	Bench Press	5	90
@@ -123,7 +141,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/4/29	Deadlift	6	145
 2017/4/29	Deadlift	6	150
 2017/4/29	Deadlift	6	150
-
 2017/4/29	Bench Press	6	75
 2017/4/29	Bench Press	6	85
 2017/4/29	Bench Press	6	85
@@ -136,7 +153,6 @@ Date 	Exercise 	Replicate 	Weight
 2017/4/27	Squat	6	145
 2017/4/27	Squat	6	145
 2017/4/27	Squat	6	145
-
 2017/4/27	Pec Deck	6	85
 2017/4/27	Pec Deck	6	90
 2017/4/27	Pec Deck	6	95
